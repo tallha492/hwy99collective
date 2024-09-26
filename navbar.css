@@ -1,50 +1,36 @@
-*{
-    box-sizing: border-box;
-    font-size: 17px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.navup {
+  color: rgb(136, 132, 132);
 }
-.navup{
-    color: rgb(136, 132, 132);
-}
-.icon{
-    gap: 10px;
+.icon {
+  gap: 10px;
 }
 
-.main{
-    background-image: url(/assets/images/nav.jpg);
-    background-size: cover;
-    height: 80px;
-    padding-top: 10px;
-  
+.nav-main {
+  background-image: url(./assets/images/nav.jpg);
+  background-size: cover;
+  height: 80px;
+  padding-top: 10px;
 }
-.navlist{
-    margin-left: 60%;
+.navlist {
+  margin-left: 60%;
 }
-.btnone{
-    color: white;
-    border: 1px solid white;
-    border-radius: 20px;
-}
-.btntwo{
-    color: white;
-}
-.btntwo:hover{
-    color: white;
-}
-.btnone:hover{
-    background-color: rgb(177, 175, 175);
-    color: white;
-}
-.navsecond{
-    background-image: url(/assets/images/nav.jpg);
-    background-size: cover;
-}
-.dropdown{
-    color: white;
-}
-.secnavlist{
-
-    margin-left: 25%;
+.btn-reg {
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
 }
 
-
+.btn-reg:hover {
+  background-color: rgb(177, 175, 175);
+  color: white;
+}
+.navsecond {
+  background-image: url(./assets/images/nav.jpg);
+  background-size: cover;
+}
+.dropdown {
+  color: white;
+}
+.secnavlist {
+  margin-left: 25%;
+}
