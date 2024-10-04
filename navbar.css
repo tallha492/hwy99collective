@@ -1,0 +1,36 @@
+.navup {
+  color: rgb(136, 132, 132);
+}
+.icon {
+  gap: 10px;
+}
+
+.nav-main {
+  background-image: url(./assets/images/nav.jpg);
+  background-size: cover;
+  height: 80px;
+  padding-top: 10px;
+}
+.navlist {
+  margin-left: 60%;
+}
+.btn-reg {
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.btn-reg:hover {
+  background-color: rgb(177, 175, 175);
+  color: white;
+}
+.navsecond {
+  background-image: url(./assets/images/nav.jpg);
+  background-size: cover;
+}
+.dropdown {
+  color: white;
+}
+.secnavlist {
+  margin-left: 25%;
+}
