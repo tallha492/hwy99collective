@@ -39,25 +39,12 @@
         class="container-fluid navbar navbar-expand-lg navbar-white bg-white navup"
       >
         <div class="container">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 gap-2 mb-lg-0">
-              <li class="nav-item">Delivery 9AM - 8PM</li>
-              <li class="nav-item" style="margin-left: 50px">
-                Text Now 661.978.7951
-              </li>
-            </ul>
-            <form class="d-flex icon" style="font-size: 16px">
+          <div class="row w-100 justify-content-between">
+            <div class="col-6 d-flex gap-2">
+              <a>Delivery 9AM - 8PM</a>
+              <a>Text Now 661.978.7951</a>
+            </div>
+            <div class="col-6 d-flex gap-2 justify-content-end">
               <i
                 style="font-size: 20px"
                 class="fa-brands fa-square-facebook"
@@ -70,7 +57,7 @@
                 style="font-size: 20px"
                 class="fa-brands fa-square-twitter"
               ></i>
-            </form>
+            </div>
           </div>
         </div>
       </nav>
@@ -79,26 +66,28 @@
         <nav
           class="container navbar navbar-expand-lg nav navbar-dark bg-transparent"
         >
-          <div class="container-fluid">
-            <div class="input-group mb-3">
-              <input
-                style="max-width: 20%; font-size: 14px"
-                type="text"
-                class="form-control"
-                placeholder="Search Cannabis Products"
-                aria-label="Recipient's username"
-                aria-describedby="button-addon2"
-              />
-              <button
-                class="btn"
-                type="button"
-                style="background-color: aliceblue; color: rgb(155, 150, 150)"
-              >
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
+          <div class="row w-100 justify-content-between">
+            <div class="mb-3 col-lg-3 col-md-4 col-4">
+              <div class="input-group">
+                <input
+                  style="font-size: 14px"
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Cannabis Products"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn"
+                  type="button"
+                  style="background-color: aliceblue; color: rgb(155, 150, 150)"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
             </div>
-            <div>
-              <ul class="navbar-nav mb-2 mb-lg-0 navlist">
+            <div class="col-lg-4 col-md-4 col-8">
+              <ul class="navbar-nav flex-row gap-2">
                 <li class="nav-item">
                   <button class="btn btn-reg" type="submit">Register</button>
                 </li>
@@ -121,10 +110,21 @@
       </div>
       <div class="container-fluid navsecond">
         <nav
-          class="container navbar navbar-expand-lg nav navbar-dark bg-transparent"
+          class="container navbar navbar-expand-lg nav navbar-dark bg-transparent justify-content-center"
         >
-          <div class="container-fluid">
-            <ul class="navbar-nav mb-2 mb-lg-0 secnavlist">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto align-items-center">
               <li class="nav-item">
                 <a href="./index.html" class="btn text-white" type="submit"
                   >Home</a
@@ -220,7 +220,7 @@
     </header>
     <main>
       <section class="main-section-container">
-        <div class="midsection">
+        <div>
           <div class="first-section-div">
             <img
               src="assets/images/cropped-Highway-99-01-1-1-300x215-1.png"
@@ -228,7 +228,7 @@
             />
           </div>
 
-          <div class="second-section-div">
+          <div class="second-section-div flex-wrap">
             <div class="ssd-all">
               <div class="box">
                 <a href="#"><img src="assets/images/specials.png" alt="" /></a>
@@ -271,7 +271,7 @@
         </div>
       </section>
       <section class="second-container">
-        <div class="midsection2">
+        <div class="midsection2 flex-wrap">
           <div class="scd-all">
             <div>
               <a href="#"><img src="assets/images/Edibles.jpg" alt="" /></a>
@@ -304,11 +304,12 @@
           <div><button class="reg-btn">Register</button></div>
         </div>
       </section>
-      <section class="fourth-container">
-        <div class="midsection4">
-          <div><p class="fcd-text">State ID</p></div>
-          <div><p class="fcd-text">Required</p></div>
-          <div class="fcd-btn"><button>Shop Now</button></div>
+      <section class="fourth-container container-fluid">
+        <div class="d-flex flex-column col-md-4 text-center pt-5 gap-5">
+          <div>
+            <p class="fcd-text">State ID <br />Required</p>
+          </div>
+          <div><button class="btn btn-lg btn-light">Shop Now</button></div>
         </div>
       </section>
       <section class="empty">
